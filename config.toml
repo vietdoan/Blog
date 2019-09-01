@@ -1,4 +1,4 @@
-baseURL                   = "https://imvido.com"
+baseURL                   = "https://vietdoan.github.io"
 builddrafts                = false
 canonifyurls               = true
 contentdir                 = "content"
@@ -46,7 +46,7 @@ pygmentsuseclasses         = true
  
 
 [params]
-  avatar                   = "images/profile.jpg"             # path to image in static dir e.g img/avatar.png 
+  avatar                   = "https://res.cloudinary.com/vido/image/upload/v1567358559/images/profile_kpasju.jpg"             # path to image in static dir e.g img/avatar.png 
   author                   = "Vido"
   description              = ["Software engineer apprentice.", "Pythonista and Gopher (hopefully)."] # appears in the site header when set to a non-empty string
   welcome_head             = "Hello, World!"
