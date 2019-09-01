@@ -1,0 +1,77 @@
+baseURL                   = "https://imvido.com"
+builddrafts                = false
+canonifyurls               = true
+contentdir                 = "content"
+layoutdir                  = "layouts"
+publishdir                 = "public"
+enableEmoji                = true
+summaryLength              = 200
+Paginate                   = 3
+
+theme                      = "AllinOne"
+title                      = "Vido Blog"
+
+pygmentsuseclasses         = true
+
+
+[permalinks]
+  blog                     = "blog/:year-:month/:slug/"
+
+
+[taxonomies]
+  tag                      = "tags"
+  series                   = "series"
+  category                 = "categories"
+
+
+[menu]
+  [[menu.main]]
+    name                   = "Blog"
+    weight                 = -120
+    identifier             = "blog"
+    url                    = "blog/"  
+
+  [[menu.main]]
+    name                   = "Moment"
+    weight                 = -110
+    identifier             = "moment"
+    url                    = "moment/" 
+
+  [[menu.main]]
+    name                   = "About"
+    weight                 = -100
+    identifier             = "about"
+    url                    = "about/"  
+
+ 
+
+[params]
+  avatar                   = "images/profile.jpg"             # path to image in static dir e.g img/avatar.png 
+  author                   = "Vido"
+  description              = ["Software engineer apprentice.", "Pythonista and Gopher (hopefully)."] # appears in the site header when set to a non-empty string
+  welcome_head             = "Hello, World!"
+  welcome_word             = "This is the place where I can share what I have learned"
+
+  latestpostscount         = 5                             # how many posts to display on the home page
+  bloggroupby              = 'month'
+  dateform                 = "Jan 2, 2006"
+  dateformfull             = "2006-01-02  Monday  15:04:05"
+  noshowreadtime           = false                         # if true, don't show "<x> minutes read" in posts
+
+  # slides
+  slidesDirPath            = "static/header-slides"    # path to image in local dir (path for hugo)
+  slidesDirPathURL         = "header-slides"    # path to image in static dir (for static pages)
+
+  # highlighting 
+  highlightjs              = true
+
+  # latex
+  katex                    = true
+
+  # links
+  email                    = "vietdoanhp1996@email.com"
+  github                   = "//github.com/vietdoan"
+  linkedin                 = "//linkedin.com/in/van-viet-doan-171017b5/"
+  facebook                 = "//facebook.com/vietdoan.hp"
+  # px500                    = "//px500"
+  
