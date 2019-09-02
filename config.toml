@@ -1,4 +1,4 @@
-baseURL                   = "https://vietdoan.github.io"
+baseURL                   = "https://imvio.com"
 builddrafts                = false
 canonifyurls               = true
 contentdir                 = "content"
