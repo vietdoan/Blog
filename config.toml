@@ -1,4 +1,4 @@
-baseURL                   = "https://imvio.com"
+baseURL                   = "https://imvido.com"
 builddrafts                = false
 canonifyurls               = true
 contentdir                 = "content"
