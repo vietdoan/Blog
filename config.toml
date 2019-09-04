@@ -50,7 +50,7 @@ pygmentsuseclasses         = true
   author                   = "Vido"
   description              = ["Software engineer apprentice.", "Pythonista and Gopher (hopefully)."] # appears in the site header when set to a non-empty string
   welcome_head             = "Hello, World!"
-  welcome_word             = "This is the place where I can share what I have learned"
+  welcome_word             = "This is the place where I can share what I have learnt"
 
   latestpostscount         = 5                             # how many posts to display on the home page
   bloggroupby              = 'month'
