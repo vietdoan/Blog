@@ -8,6 +8,7 @@ summary: "Clustered Index là gì và tại sao nó có thể tăng tốc độ 
 Nếu bạn có một chút kinh nghiệm về lập trình, hiểu được một số khái niệm cơ bản của cơ sở dữ liệu quan hệ (relational database) và SQL (như là index, primary key) thì sẽ dễ đọc hơn.
 ## Giới thiệu
 Trong bài viết này tôi sẽ trình bày hiểu biết của bản thân về clustered index và tại sao nó có thể giúp bạn cải thiện được tốc độ truy vấn dữ liệu khi  sử dụng các  hệ thống  quản lý cơ sở dữ liệu quan hệ  (Relational database  management system). Bài viết bao gồm:
+
 - Ý tưởng chung của clustered index và secondary index.
 - Clustered Index trong MySQL.
 
