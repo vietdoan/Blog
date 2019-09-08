@@ -2,7 +2,7 @@
 title: "Clustered Index"
 date: 2019-09-08T14:08:32+07:00
 draft: false
-summary: "Clustered Index là gì và tại sao nó có thể tăng tốc độ đọc bản ghi trong cơ sở dữ liệu quan hệ cũng như trade-off mà bạn nên biết" 
+summary: "Clustered Index là gì và tại sao nó có thể tăng tốc độ đọc bản ghi trong cơ sở dữ liệu quan hệ." 
 ---
 ## Những điều cần biết
 Nếu bạn có một chút kinh nghiệm về lập trình, hiểu được một số khái niệm cơ bản của cơ sở dữ liệu quan hệ (relational database) và SQL (như là index, primary key) thì sẽ dễ đọc hơn.

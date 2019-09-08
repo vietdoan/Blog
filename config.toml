@@ -7,7 +7,6 @@ publishdir                 = "public"
 enableEmoji                = true
 summaryLength              = 200
 Paginate                   = 3
-googlefonts                = "https//fonts.googleapis.com/css?family=Open+Sans&display=swap" 
 
 theme                      = "AllinOne"
 title                      = "Vido Blog"
@@ -49,7 +48,7 @@ pygmentsuseclasses         = true
 [params]
   avatar                   = "https://res.cloudinary.com/vido/image/upload/v1567358559/images/profile_kpasju.jpg"             # path to image in static dir e.g img/avatar.png 
   author                   = "Vido"
-  description              = ["Software engineer apprentice.", "Pythonista and Gopher (hopefully)."] # appears in the site header when set to a non-empty string
+  description              = ["Software engineer apprentice.", "Pythonista and Gopher."] # appears in the site header when set to a non-empty string
   welcome_head             = "Hello, World!"
   welcome_word             = "This is the place where I can share what I have learnt"
 
@@ -65,6 +64,8 @@ pygmentsuseclasses         = true
 
   # highlighting 
   highlightjs              = true
+
+  googlefonts                = "https://fonts.googleapis.com/css?family=Open+Sans:400,700|Ubuntu+Mono:400,400i,700,700i|Raleway:300,400,500,600" 
 
   # latex
   katex                    = true
