@@ -7,6 +7,7 @@ publishdir                 = "public"
 enableEmoji                = true
 summaryLength              = 200
 Paginate                   = 3
+googlefonts                = "https//fonts.googleapis.com/css?family=Open+Sans&display=swap" 
 
 theme                      = "AllinOne"
 title                      = "Vido Blog"
